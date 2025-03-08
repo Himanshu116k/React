@@ -1,0 +1,37 @@
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+ 
+
+  }
+  *{
+
+   
+  }
+  .check{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+    flex-direction: column;
+  }
+  /* *{
+    background-image: url("image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+  } */
+  .login-form {
+    /* max-width: 300px; */
+  }
+  
+  .login-form-forgot {
+    float: right;
+  }
+  
+  .login-form-button {
+    width: 100%;
+  }
+  
