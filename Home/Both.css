@@ -1,0 +1,33 @@
+.outer1{
+    border: 2px solid;
+    width: 100px;
+    height: 90%;
+    width: 25%;
+    border-radius: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 254, 254, 0.301);
+    
+
+}
+.outer1 input{
+    height: 49px;
+    width: 40vh;
+    margin-top: 15px;
+    border-radius: 30px;
+    border: transparent;
+    outline: none;
+    background-color: rgba(208, 201, 201, 0.724);
+    padding-left: 8px;
+}
+.outer1 i{
+    position: relative;
+    top: -5.5vh;
+    left: 16vh;
+}
+::placeholder {
+    margin-left: 13px;
+    color: white;     /* For modern browsers */
+    opacity: 1;       /* Ensures full visibility */
+}

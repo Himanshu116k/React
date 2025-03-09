@@ -8,7 +8,8 @@ const left = () => {
     <div style={{'background-color': '#fffefe61',
     height: '37vh',
     width: '4.5%',
-    'border-radius': '30px'}}>
+    'border-radius': '30px',
+    'margin-left': '15px',}}>
      <ul style={{    display: 'flex',
     'flex-direction': 'column',
     'justify-content': 'center',

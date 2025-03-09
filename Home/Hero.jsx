@@ -1,5 +1,7 @@
 import React from 'react'
 import Left from './Left'
+import Both from'./Both'
+import Middel from './Middel'
 
 const Hero = () => {
   return (
@@ -13,9 +15,10 @@ const Hero = () => {
         height: '100vh',
        width: '191vh',
         'margin-top': '15px',
-        'border-radius': '15px'
+        'border-radius': '15px',
+        gap:'3%'
       }}>
-        <Left /><Left /><Left />
+        <Left/><Both/><Middel/><Both/>
       </div>
     </div>
   )
