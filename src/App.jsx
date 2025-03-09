@@ -6,6 +6,13 @@ import Login from '../Components/Login';
 import Admin from '../Components/Admin';
 import Messages from '../Components/Messages';
 import Left from '../Home/Left';
+import Hero from '../Home/Hero';
+
+const hero=(()=>{
+  <section style={{display:'flex'}}>
+
+  </section>
+})
 
 const router = createBrowserRouter([
   {
@@ -14,7 +21,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/home",
-    element:<> <Home />  <Left/></>
+    element:<> <Home /><Hero/></>
   },
   {
     path: "/login",
